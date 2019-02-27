@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>  
+</head>
+<body>
+<div class="output" style="min-height: 150px;">
+
+<ul>
+
+</ul>
+
+<p></p>
+
+</div>
+<script>
+    var total=0;
+    var itemText;
+    var list = document.querySelector('.output ul');
+    var totalBox = document.querySelector('.output p');
+    totalBox.textContent = '';
+    var text1 = "Underpants:6.99,Socks:5.99,T-shirt:14.99,Trousers:31.99,Shoes:23.99";
+    var products = text1.split(',');
+    for (var i = 0; i < products.length; i++) {
+        // number 3
+        var p = products[i];
+        var index = p.indexOf(':', 0);
+        var en = p.slice(0, index);
+        var price = p.slice(index + 1);
+        console.log(price);
+        // number 4
+        var num = Number(price);
+        // number 5
+        itemText = en + ' — $' + price;
+        total= total+num;
+        console.log(total);
+        var listItem = document.createElement('li');
+        listItem.textContent = itemText;
+        list.appendChild(listItem);
+    }
+    totalBox.textContent = 'Total: $' + total.toFixed(2);
+    </script>
+</body>
+</html>

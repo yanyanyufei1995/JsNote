@@ -1,0 +1,5 @@
+c:\users\administrator.ypf8ypcf6b9m9ln\documents\visual studio 2010\Projects\js\JStest\bin\JStest.dll
+c:\users\administrator.ypf8ypcf6b9m9ln\documents\visual studio 2010\Projects\js\JStest\bin\JStest.pdb
+c:\users\administrator.ypf8ypcf6b9m9ln\documents\visual studio 2010\Projects\js\JStest\obj\Debug\JStest.dll
+c:\users\administrator.ypf8ypcf6b9m9ln\documents\visual studio 2010\Projects\js\JStest\obj\Debug\JStest.pdb
+C:\Users\Administrator.YPF8YPCF6B9M9LN\documents\visual studio 2010\Projects\js\JStest\obj\Debug\JStest.csprojResolveAssemblyReference.cache
